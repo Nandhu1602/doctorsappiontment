@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import {Card,Button,Image,Modal,Alert} from 'react-bootstrap';
+import {Card,Button,Image,Modal} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import './About.css';
 import Services from './Services'
