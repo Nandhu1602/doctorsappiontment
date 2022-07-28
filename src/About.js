@@ -72,11 +72,11 @@ function About() {
             <div class="spacing">
             <Card style={{ width: '15rem' }}>
                 <Card.Body>
-                    <Card.Title style={{marginLeft:'30%'}}>Dermatology</Card.Title>
+                    <Card.Title style={{marginLeft:'22%'}}>Dermatology</Card.Title>
                     <Image src="/smlogo1.jpg" roundedCircle width={'100px'} style={{marginLeft:'30%'}}></Image>
                     <Card.Subtitle className="mb-2 text-muted">Specialists for skin and hair treatments</Card.Subtitle>
                     <Card.Text>
-                    Rashes, Pimples, Acne, Hairfall, Dandruff                    
+                    Rashes, Pimples, Acne, Hairfall, Dandruff <br/>                   
                     </Card.Text>
                     
                 </Card.Body>
@@ -85,11 +85,11 @@ function About() {
             <div class="spacing">
             <Card style={{ width: '15rem' }}>
                 <Card.Body>
-                    <Card.Title style={{marginLeft:'30%'}}>Consultant Physician</Card.Title>
+                    <Card.Title style={{marginLeft:'10%',width:'100%'}}>Consultant Physician</Card.Title>
                     <Image src="/smlogo2.webp" roundedCircle width={'100px'} style={{marginLeft:'30%'}}></Image>
-                    <Card.Subtitle className="mb-2 text-muted">General Checkups</Card.Subtitle>
+                    <Card.Subtitle className="mb-2 text-muted m-1.5">General Checkups Consultant</Card.Subtitle>
                     <Card.Text>
-                    Rashes, Pimples, Acne, Hairfall, Dandruff                    
+                    Rashes, Pimples, Acne, Hairfall, Dandruff                   
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -97,7 +97,7 @@ function About() {
             <div class="spacing">
             <Card style={{ width: '15rem' }}>
                 <Card.Body>
-                    <Card.Title style={{marginLeft:'30%'}}>Gynecology</Card.Title>
+                    <Card.Title style={{marginLeft:'26%'}}>Gynecology</Card.Title>
                     <Image src="/smlogo3.webp" roundedCircle width={'100px'} style={{marginLeft:'30%'}}></Image>
                     <Card.Subtitle className="mb-2 text-muted">Specialists for skin and hair treatments</Card.Subtitle>
                     <Card.Text>
@@ -109,7 +109,7 @@ function About() {
             <div class="spacing">
             <Card style={{ width: '15rem' }}>
                 <Card.Body>
-                    <Card.Title style={{marginLeft:'30%'}}>Phychiatry</Card.Title>
+                    <Card.Title style={{marginLeft:'25%'}}>Phychiatry</Card.Title>
                     <Image src="/smlogo4.jpeg" roundedCircle width={'100px'} style={{marginLeft:'30%'}}></Image>
                     <Card.Subtitle className="mb-2 text-muted">Specialists for Meantal  treatments</Card.Subtitle>
                     <Card.Text>

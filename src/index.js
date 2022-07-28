@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes,NavLink} from 'react-router-dom';
-//import {Nav,Navbar,Container} from 'react-bootstrap';
+import {Nav,Navbar,Container} from 'react-bootstrap';
 import Login from './Login';
 import About from './About';
 import Contact from './ContactUs';
@@ -25,16 +25,17 @@ const routing = (
   
   //link--> path -->Components
   <BrowserRouter>
- 
   
-  
-   
-
-            <NavLink  to="/">Home</NavLink>
-            <NavLink to="/About">About US</NavLink>
-            <NavLink to="/Contact">Contact Us</NavLink>
-       
-
+          <Navbar bg='primary' variant="dark">
+        <Container className='navbarcss'>
+          <Navbar.Brand href="/" style={{fontWeight:"bolder",fontSize:'25px'}}>Doctors Appointment</Navbar.Brand>
+          <Nav className="me-auto">
+            <NavLink  to="/">Home</NavLink>&nbsp;
+            <NavLink to="/About">About US</NavLink>&nbsp;
+            <NavLink to="/Contact">Contact Us</NavLink>&nbsp;
+          </Nav>
+        </Container>
+      </Navbar>
     
 
     <Routes>

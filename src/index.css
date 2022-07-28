@@ -54,3 +54,13 @@ code {
 .videoplay video{
   height: 399px;
 }
+.navbarcss a{
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  padding: 0.1rem;
+}
+.navbarcss a:hover{
+  color: darkblue;
+
+}
