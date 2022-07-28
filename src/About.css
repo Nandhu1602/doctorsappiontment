@@ -1,0 +1,105 @@
+h3{
+    color: rgb(241, 255, 47);
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.aboutheader{
+    display:inline-flex;
+    width: 100%;
+    margin-top: 1%;
+}
+.services{
+    margin-left: 2%;
+    width: 60%;
+    display: inline-flex;
+}
+.textaligning1{
+    width: 500px;
+    margin-left: 6%;
+    text-align: center;
+}
+.textaligning1 Button{
+    margin: 1%;
+  
+}
+.textaligning2{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    z-index: 2;
+    padding: 1rem;
+    font-weight: bolder;
+    border-radius: 2rem;
+}
+.address{
+    margin: 1%;
+    display: inline-flex;
+    margin-left: 10%;
+    font-weight: bolder;
+    
+}
+.registerCss{
+    width: 700px;
+    background: rgba(173, 216, 230, 0.895);
+    padding: 1.5rem;
+    border-radius: 2rem;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.contactingform{
+    margin-left: 5%;
+    width: 600px;
+    background: lightblue;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.locAddressRight{
+    margin-left: 1%;
+
+}
+h1{
+    text-align: center;
+}
+.serviceTypes{
+    display: inline-flex;
+
+}
+.spacing{
+    margin: 1%;
+}
+.parastyle{
+   width: 500px;
+   font-weight: bold;
+}
+.filler{
+    margin-top: 6%;
+    margin-left: 7%;
+    width: 700px;
+}
+.padspace{
+    padding-top: 8px;
+    border-radius: 2rem;
+}
+.filler img{
+    border-radius: 2rem;
+}
+.headerimg{
+    size: 100%;
+}
+.mdbanner{
+    background:linear-gradient(rgb(46, 46, 179),rgba(8,8,162));
+    width: 70rem;
+    height: 300px;
+    border-radius: 5rem;
+    margin-left: 10%;
+    display: inline-flex;
+}
+.listing{
+    display: inline-flex;
+}
+.scroller{
+    height: 300px;
+}

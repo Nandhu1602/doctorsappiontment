@@ -5,9 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('https://thumbs.dreamstime.com/b/doctor-stethoscope-hand-hospital-background-gown-94227568.jpg');
+  background-size: cover;
+    
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navbar{
+  background: lightblue;
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.loginCss{
+  margin-left: 5%;
+  width: 600px;
+  background: lightblue;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.aligingitem{
+  display:inline-flex;
+  width: 100%;
+  margin-top: 1%;
+  margin-left: 10%;
+}
+.leftalign {
+  width: 500px;
+  margin-left: 2%;
+  display:grid;
+  font-weight: bold;
+}
+.coloring{
+  background: linear-gradient(rgba(50, 157, 233, 0.858),rgba(79, 130, 247, 0.9));
+  color: antiquewhite;
+}
+.sameline{
+  display: inline-flex;
+}
+.videoplay{
+ margin-bottom: 1%;
+ width: 500px;
+}
+.videoplay video{
+  height: 399px;
 }

@@ -1,0 +1,28 @@
+<footer class="bg-dark text-white text-center">
+    <div class="container p-4">
+    <section class="mb-4">
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"><i class="fab fa-facebook-f"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"><i class="fab fa-twitter"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.co.in/" role="button"><i class="fab fa-google"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"><i class="fab fa-instagram"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://in.linkedin.com/in/om-rawal" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/om-rawal" role="button"><i class="fab fa-github"></i></a>
+    </section>
+    <section class="">
+        <form action=""><div class="row d-flex justify-content-center">
+            <div class="col-auto"><p class="onlyFont">
+            <strong>Sign up for our newsletter</strong></p></div>
+                <div class="col-md-5 align-self-start">
+                    <div class="form-outline form-white">
+                    <input type="email" class="form-control mb-4" placeholder="Email address" value="">
+                    <div class="form-notch"><div class="form-notch-leading"></div>
+                    <div class="form-notch-middle" style="width: 0px;"></div>
+                    <div class="form-notch-trailing"></div></div></div></div>
+                    <div class="col-auto"><button class="ripple ripple-surface btn btn-outline-light mb-4" type="submit" role="button">Subscribe</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="onlyFont">
+</div>
+</footer>
