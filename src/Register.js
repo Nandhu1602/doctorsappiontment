@@ -65,22 +65,22 @@ export default function Register(){
                 
         </div>
             <div class="filler">
-                    <Carousel>
-                            <Carousel.Item>
+                    <Carousel fade>
+                            <Carousel.Item interval={'2000'}>
                                 <img
                                 className="d-block w-100"
                                 src="/carousel1.jpg"
                                 alt="First slide"
                                 />
                             </Carousel.Item>
-                            <Carousel.Item>
+                            <Carousel.Item interval={'2000'}>
                                 <img
                                 className="d-block w-100"
                                 src="/carousel2.jpg"
                                 alt="Second slide"
                                 />
                             </Carousel.Item>
-                            <Carousel.Item>
+                            <Carousel.Item interval={'2000'}>
                                 <img
                                 className="d-block w-100"
                                 src="/carousel3.jpg"

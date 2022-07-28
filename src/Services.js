@@ -38,14 +38,15 @@ function Services(){
         <div class="scroller">
         <h1>What our users have to say</h1>
         <Carousel fade>
-                <Carousel.Item>
+                <Carousel.Item interval={'2000'}>
                     <img
                     className="d-block w-100"
                     src="./scroller1.png"
                     alt="First slide"
+                    
                     />
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={'2000'}>
                     <img
                     className="d-block w-100"
                     src="./scroller2.png"
@@ -54,7 +55,7 @@ function Services(){
 
                    
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={'2000'}>
                     <img
                     className="d-block w-100"
                     src="./scroller3.png"
