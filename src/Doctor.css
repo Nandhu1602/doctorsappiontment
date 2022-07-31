@@ -11,3 +11,8 @@
 .aligningdoc{
     display: inline-flex;   
 }
+img{
+    width:'8rem';
+    height:'4rem' ;
+    margin-left:'65%';
+}
