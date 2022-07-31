@@ -33,8 +33,7 @@ export default function Footer() {
             <MDBCol lg='2' md='12' className='mb-4 mb-md-0'>
               <MDBRipple
                 rippleColor='light'
-                className='bg-image hover-overlay shadow-1-strong rounded'
-              >
+                className='bg-image hover-overlay shadow-1-strong rounded'>
                 
                 <a href='https://mediniz.com/list/ambulance-services/india' style={{textDecoration:'none'}}>
                 <img class="imagine" src='https://image.winudf.com/v2/image1/Y29tLmdhbWF4aWRjLm11bHRpbGV2ZWxmbHlpbmdhbWJ1bGFuY2VoZF9zY3JlZW5fMF8xNTQxMjQ0OTIwXzA5MA/screen-0.jpg?fakeurl=1&type=.webp' className='w-100 ' />

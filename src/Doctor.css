@@ -11,8 +11,13 @@
 .aligningdoc{
     display: inline-flex;   
 }
-img{
+.dash img{
     width:'8rem';
     height:'4rem' ;
     margin-left:'65%';
+}
+.dashimg Image{
+    width:"2rem";
+    height:"3rem";
+    margin:'1rem';
 }
