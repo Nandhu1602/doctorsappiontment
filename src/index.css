@@ -1,12 +1,12 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('https://thumbs.dreamstime.com/b/doctor-stethoscope-hand-hospital-background-gown-94227568.jpg');
-  background-size: cover;
+  background: url('https://wallsbazar.com/wp-content/uploads/2022/03/Medical-Backgrounds-Photos-1536x864.jpg');
+  width: 100%;
+  background-size:120%;
     
 }
 

@@ -8,6 +8,7 @@ import Login from './Login';
 import About from './About';
 import Contact from './ContactUs';
 import Register from './Register';
+import Appointment from './Appointment';
 
 
 
@@ -28,11 +29,12 @@ const routing = (
   
           <Navbar bg='primary' variant="dark">
         <Container className='navbarcss'>
-          <Navbar.Brand href="/" style={{fontWeight:"bolder",fontSize:'25px'}}>Doctors Appointment</Navbar.Brand>
+          <Navbar.Brand href="#" style={{fontWeight:"bolder",fontSize:'25px'}}>Doctors Appointment</Navbar.Brand>
           <Nav className="me-auto">
             <NavLink  to="/">Home</NavLink>&nbsp;
             <NavLink to="/About">About US</NavLink>&nbsp;
             <NavLink to="/Contact">Contact Us</NavLink>&nbsp;
+            <NavLink to="/Appointment">Consult Doctors</NavLink>&nbsp;
           </Nav>
         </Container>
       </Navbar>
@@ -44,9 +46,11 @@ const routing = (
       <Route path="Contact" element={<Contact/>}></Route>
       <Route path="Login" element={<Login/>}></Route>
       <Route path="Register" element={<Register/>}></Route>
+      <Route path="Appointment" element={<Appointment/>}></Route>
     </Routes>
   
   </BrowserRouter>
+  
 );
 
 ReactDOM.render(routing,document.getElementById('root'));

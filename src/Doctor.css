@@ -1,0 +1,13 @@
+.doubledoc{
+    display: inline-flex;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin: 1%;
+}
+.singledoc{
+    margin-left: 5%;
+    margin-left: 5%;
+}
+.aligningdoc{
+    display: inline-flex;   
+}

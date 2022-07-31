@@ -1,23 +1,28 @@
 
 import React, { useState } from "react";
-import {Card,Button,Image,Modal} from 'react-bootstrap';
+import {Alert,Button,Image,Modal} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import './About.css';
 import Services from './Services'
-
+import Footer from "./Footer";
 
 
 function About() {
     const values = [true];
     const [fullscreen, setFullscreen] = useState(true);
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(false  );
+    const [smShow, setSmShow] = useState(false);
+    const [lgShow, setLgShow] = useState(false);
+
+    const handleClose = () => setLgShow(false);
+    
+  const handlecancel=()=>{
+        setLgShow(false);
+      alert("Your appointment is cancelled successfull...")
+    
+}
+
   
-
-    function handleShow(breakpoint) {
-        setFullscreen(breakpoint);
-        setShow(true);
-      }
-
    
     return(
         <>
@@ -42,17 +47,25 @@ function About() {
         <div class="booking">
          {
                 values.map((v, idx) => (
-                    <Button variant="success" key={idx} className="me-7 mb-2 " onClick={() => handleShow(v)}>
-                    Services  
+                    <Button variant="success" key={idx} className="me-7 mb-2 " onClick={() => setLgShow(true)}>
+                    Cancel Appointments 
                     </Button>
                  ))}
       
-      <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
+      <Modal  size="lg"
+        show={lgShow}
+        onHide={() => setLgShow(false)}
+        aria-labelledby="example-modal-sizes-title-lg" >
         <Modal.Header closeButton>
-          <Modal.Title>Services</Modal.Title>
+          <Modal.Title id="example-custom-modal-styling-title">Cancel Appointments</Modal.Title>
         </Modal.Header>
         <Modal.Body>
                     <Services/>
+                    <div>
+                    <h2>Do you really want to be Cancel the Appointment</h2>
+                    <Button className="col-2" onClick={handlecancel} style={{margin:"1%"}}>Yes, Confirm</Button>
+                    <Button className="col-2" onClick={handleClose}>Close</Button>
+                    </div>
         </Modal.Body>
       </Modal>
       </div>
@@ -69,59 +82,12 @@ function About() {
                 Depending on it, they may prescribe medicines or recommend some lab tests.
             </p>
             </div>
-            <div class="spacing">
-            <Card style={{ width: '15rem' }}>
-                <Card.Body>
-                    <Card.Title style={{marginLeft:'22%'}}>Dermatology</Card.Title>
-                    <Image src="/smlogo1.jpg" roundedCircle width={'100px'} style={{marginLeft:'30%'}}></Image>
-                    <Card.Subtitle className="mb-2 text-muted">Specialists for skin and hair treatments</Card.Subtitle>
-                    <Card.Text>
-                    Rashes, Pimples, Acne, Hairfall, Dandruff <br/>                   
-                    </Card.Text>
-                    
-                </Card.Body>
-            </Card>
-            </div>
-            <div class="spacing">
-            <Card style={{ width: '15rem' }}>
-                <Card.Body>
-                    <Card.Title style={{marginLeft:'10%',width:'100%'}}>Consultant Physician</Card.Title>
-                    <Image src="/smlogo2.webp" roundedCircle width={'100px'} style={{marginLeft:'30%'}}></Image>
-                    <Card.Subtitle className="mb-2 text-muted m-1.5">General Checkups Consultant</Card.Subtitle>
-                    <Card.Text>
-                    Rashes, Pimples, Acne, Hairfall, Dandruff                   
-                    </Card.Text>
-                </Card.Body>
-            </Card>
-            </div>
-            <div class="spacing">
-            <Card style={{ width: '15rem' }}>
-                <Card.Body>
-                    <Card.Title style={{marginLeft:'26%'}}>Gynecology</Card.Title>
-                    <Image src="/smlogo3.webp" roundedCircle width={'100px'} style={{marginLeft:'30%'}}></Image>
-                    <Card.Subtitle className="mb-2 text-muted">Specialists for skin and hair treatments</Card.Subtitle>
-                    <Card.Text>
-                    Rashes, Pimples, Acne, Hairfall, Dandruff                    
-                    </Card.Text>
-                </Card.Body>
-            </Card>
-            </div>
-            <div class="spacing">
-            <Card style={{ width: '15rem' }}>
-                <Card.Body>
-                    <Card.Title style={{marginLeft:'25%'}}>Phychiatry</Card.Title>
-                    <Image src="/smlogo4.jpeg" roundedCircle width={'100px'} style={{marginLeft:'30%'}}></Image>
-                    <Card.Subtitle className="mb-2 text-muted">Specialists for Meantal  treatments</Card.Subtitle>
-                    <Card.Text>
-                    Rashes, Pimples, Acne, Hairfall, Dandruff                    
-                    </Card.Text>
-                </Card.Body>
-            </Card>
-            </div>
+           
         </div>
         </div>
         
         </div>
+        <Footer/>
         </>
     );
   }    
