@@ -2,19 +2,12 @@ import React from 'react';
 import {
   MDBFooter,
   MDBContainer,
-  MDBIcon,
-  MDBInput,
   MDBCol,
   MDBRow,
   MDBRipple,
-  MDBBtn
 } from 'mdb-react-ui-kit';
-import { IconName } from "react-icons/fa";
-import { FaHeart, FaRegHeart } from 'react-icons/fa';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 export default function Footer() {
-  const fontStyles = {color: 'blue', fontSize: '80px'};
+
   return (
     <MDBFooter className='text-center text-white' style={{ backgroundImage:' linear-gradient( rgba(31,43,86,1) 8.3%, rgba(0,117,201,1) 96.6% )' }}>
       <MDBContainer className='p-4'>

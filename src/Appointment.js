@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
-import { Carousel,Card ,Modal,Button,Form,Image} from "react-bootstrap";
+import { Carousel,Card ,Button,Form,Image} from "react-bootstrap";
 import './About.css';
-import Services from './Services';
+
 import Footer from './Footer';
 import Doctors from './Doctors'
 
 
 export default function Appointment(){
-    const values = [true];
-    const [fullscreen, setFullscreen] = useState(true);
-    const [show, setShow] = useState(false);
+    
     const [validated, setValidated] = useState(false);
 
     const handleSubmit = (event) => {
@@ -27,10 +25,7 @@ export default function Appointment(){
         event.preventDefault();
       };
 
-    function handleShow(breakpoint) {
-        setFullscreen(breakpoint);
-        setShow(true);
-      }
+   
     
     const [index, setIndex] = useState(0);
 

@@ -1,5 +1,5 @@
 import React from "react";
-import {Alert,Carousel,Image,Form,Button} from "react-bootstrap";
+import {Alert,Carousel} from "react-bootstrap";
 function Services(){
     return(
     <>

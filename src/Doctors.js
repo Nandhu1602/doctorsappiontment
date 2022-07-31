@@ -1,5 +1,5 @@
-import React,{ useState } from "react";
-import {Button, Card,Image,Alert} from 'react-bootstrap';
+import React from "react";
+import {Button, Card,Image} from 'react-bootstrap';
 import './Doctor.css';
 
 export default function Doctors(){

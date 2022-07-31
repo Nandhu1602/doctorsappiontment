@@ -1,11 +1,8 @@
-import React,{useState} from "react";
-import { Accordion,Offcanvas,Button} from "react-bootstrap";
+import React from "react";
+import { Accordion,Button} from "react-bootstrap";
 
 export default function Donations(){
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+   
     return(
         <>
         <div class="donationtypes">

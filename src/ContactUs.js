@@ -1,5 +1,5 @@
 import React from "react";
-import {Card,Form,Button,Image} from "react-bootstrap"
+import {Card,Image} from "react-bootstrap"
 import './About.css'
 import Footer from "./Footer";
 
@@ -82,7 +82,7 @@ function Contact(){
             </Card>
             </div>
             </div>
-                   </div>
+         </div>
             <Footer/>
         </div>
     );

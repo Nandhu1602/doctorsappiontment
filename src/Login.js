@@ -17,8 +17,8 @@ export default function Login(){
         event.stopPropagation();
       }
       else{
-        let strData =`User ID : ${emailId} and Password : ${pwd}`;
-        if(emailId=="abc@gmail.com" && pwd=="abc"){
+        //let strData =`User ID : ${emailId} and Password : ${pwd}`;
+        if(emailId==="abc@gmail.com" && pwd==="abc"){
             alert("Login success full...");
         }
         else{

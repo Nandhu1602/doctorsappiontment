@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import {Alert,Button,Image,Modal} from 'react-bootstrap';
+import {Button,Image,Modal} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import './About.css';
 import Services from './Services'
@@ -9,9 +9,9 @@ import Footer from "./Footer";
 
 function About() {
     const values = [true];
-    const [fullscreen, setFullscreen] = useState(true);
-    const [show, setShow] = useState(false  );
-    const [smShow, setSmShow] = useState(false);
+    //const [fullscreen, setFullscreen] = useState(true);
+    //const [show, setShow] = useState(false  );
+    //const [smShow, setSmShow] = useState(false);
     const [lgShow, setLgShow] = useState(false);
 
     const handleClose = () => setLgShow(false);
